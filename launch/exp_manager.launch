@@ -1,0 +1,9 @@
+<launch>
+<!-- vim: set ft=xml noet : -->
+  <arg name="exp_n" default="2"/>
+  <arg name="group_id" default="9"/>
+  <node pkg="ekf" type="exp_manager" name="exp_manager" output="screen">
+    <param name="exp_n" type="int" value="$(arg exp_n)"/>
+    <param name="group_id" type="int" value="$(arg group_id)"/>
+  </node>
+</launch>

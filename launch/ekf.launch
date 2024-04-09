@@ -1,0 +1,8 @@
+<launch>
+<!-- vim: set ft=xml noet : -->
+  <node pkg="ekf" type="ekf" name="ekf" output="screen">
+    <param name="n_peds"               value="3"/>
+    <param name="n_rob"               value="3"/>
+  </node>
+
+</launch>
