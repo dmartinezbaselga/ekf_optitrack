@@ -7,6 +7,6 @@ It assumes there is an Optitrack system publishing poses in the topics **/vrpn_c
 
 ## Launch commands
 Edit the file ekf.launch according to the number of robots and pedestrians you have.
-'''
+```
 roslaunch ekf_optitrack ekf.launch
-'''
+```
